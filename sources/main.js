@@ -15,5 +15,6 @@ var level;
 var player;
 
 window.onload = function() {
-	game = new Phaser.Game(32 * 9, 32 * 11, Phaser.AUTO, "", BootState);
+	//game = new Phaser.Game(32 * 9, 32 * 11, Phaser.AUTO, "", BootState);
+	game = new Phaser.Game(1366, 768, Phaser.AUTO, "", BootState);
 }
